@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 2rem;
+    background-image: url("./bgImg.png");
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+#description{
+    top:50%;
+    width:50%;
+    background-color:rgba(125, 125, 125, 0.9)
+}
+
+#smol{
+    font-size: 15pt;
+}
